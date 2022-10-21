@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Lokhi</title>
+   </head>
+  <body><centre>
+      <link rel="stylesheet" href="https://hosp-images.s3.jp-tok.cloud-object-storage.appdomain.cloud/maha.css">
+    <div style="border: 1px solid #FF7F00;margin:10px;">
+       <h3>HOSPITAL 1</h3>
+      <img src = "https://lokhibucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Hos1.jpg"
+      alt = "Expense Tracker" height = "250" width = "270" />
+     
+ 
+         <h3>HOSPITAL 2</h3>
+      <img src = "https://lokhibucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Hos2.jpg"
+      alt = "Expense Tracker" height = "250" width = "270" />
+   
+         <h3>HOSPITAL 3</h3>
+      <img src = "https://lokhibucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Hos3.jpg"
+      alt = "Expense Tracker" height = "250" width = "270" />
+
+   
+         <h3>HOSPITAL 4</h3>
+      <img src = "https://lokhibucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Hos4.jpg"
+      alt = "Expense Tracker" height = "250" width = "270" />
+   
+         <h3>HOSPITAL 5 </h3>
+      <img src = "https://lokhibucket.s3.jp-tok.cloud-object-storage.appdomain.cloud/Hos5.jpg"
+      alt = "Expense Tracker" height = "250" width = "270" />
+     
+         <h3> </h3>
+  </centre> </body>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "e99a76b8-363b-49f8-810a-895d2aae452c", // The ID of this integration.
+    region: "jp-tok", // The region your integration is hosted in.
+    serviceInstanceID: "9fc30d0c-c34d-4019-9cbf-cedeff590763", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</html>
