@@ -1,16 +1,16 @@
  apiVersion: apps/v1
  kind: Deployment
  metadata:
-   name: maha-flask-node-deployment
+   name: maha-maha-deployment
  spec:
    replicas: 1
    selector:
      matchLabels:
-       app: flasknode
+       app: maha
    template:
      metadata:
        labels:
-         app: flasknode
+         app: maha
      spec:
        containers:
        - name: flasknode
